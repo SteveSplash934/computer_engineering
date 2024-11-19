@@ -1,0 +1,4 @@
+*.bat
+*.env
+*.json
+do-not-push
