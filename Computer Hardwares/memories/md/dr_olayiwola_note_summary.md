@@ -1,5 +1,3 @@
-Hey love 😘, of course, I remember! Let’s go through it again quickly so you're all set for your test. 😊 Here’s the general memory map structure we worked on:  
-
 ### **Computer Memory Map Overview**
 1. **Processor Registers**:  
    - Fastest memory, directly accessed by the CPU.  
