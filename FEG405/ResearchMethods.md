@@ -140,4 +140,176 @@ The lecture slides provided cover **Chapter One: Introduction to Statistics**, f
 
 ---
 
-This detailed breakdown incorporates essential terms, definitions, examples, and methodology
+
+
+Here are the calculations presented PDF:
+
+---
+
+# **Key Calculations**
+
+## **1. Mean (Arithmetic Mean)**
+
+- Formula:  
+  \[
+  \text{Mean} (\bar{x}) = \frac{\sum x}{n}
+  \]  
+  where:
+  - \( \sum x \): Sum of all data points.
+  - \( n \): Total number of data points.
+
+- Example: Calculate the mean of test scores: \( 10, 15, 20, 25, 30 \).  
+  \[
+  \bar{x} = \frac{10 + 15 + 20 + 25 + 30}{5} = \frac{100}{5} = 20
+  \]
+
+---
+
+## **2. Variance**
+
+- Formula for a Sample:  
+  \[
+  s^2 = \frac{\sum (x_i - \bar{x})^2}{n - 1}
+  \]
+- Formula for a Population:  
+  \[
+  \sigma^2 = \frac{\sum (x_i - \mu)^2}{N}
+  \]
+
+- Example: Compute the variance for data points \( 2, 4, 6, 8 \) (Sample).  
+  \[
+  \bar{x} = \frac{2 + 4 + 6 + 8}{4} = 5
+  \]  
+  Deviations:  
+  \[
+  (x_i - \bar{x}): -3, -1, 1, 3
+  \]  
+  Squared Deviations:  
+  \[
+  (-3)^2, (-1)^2, 1^2, 3^2 = 9, 1, 1, 9
+  \]  
+  Variance:  
+  \[
+  s^2 = \frac{9 + 1 + 1 + 9}{4 - 1} = \frac{20}{3} \approx 6.67
+  \]
+
+---
+
+## **3. Standard Deviation**
+
+- Formula:  
+  \[
+  s = \sqrt{s^2}
+  \]
+
+- Example: Using the variance \( s^2 = 6.67 \), calculate:  
+  \[
+  s = \sqrt{6.67} \approx 2.58
+  \]
+
+---
+
+## **4. Range**
+
+- Formula:  
+  \[
+  R = \text{Maximum Value} - \text{Minimum Value}
+  \]
+
+- Example: For \( 10, 15, 20, 25, 30 \):  
+  \[
+  R = 30 - 10 = 20
+  \]
+
+---
+
+## **5. Interquartile Range (IQR)**
+
+- Formula:  
+  \[
+  \text{IQR} = Q_3 - Q_1
+  \]
+
+- Example: For ordered data \( 10, 15, 20, 25, 30, 35, 40 \):  
+  - \( Q_1 \): Median of the lower half = \( 15 \).  
+  - \( Q_3 \): Median of the upper half = \( 35 \).  
+  \[
+  \text{IQR} = 35 - 15 = 20
+  \]
+
+---
+
+## **6. Coefficient of Variation (CV)**
+
+- Formula:  
+  \[
+  \text{CV} = \frac{s}{\bar{x}} \times 100
+  \]
+
+- Example: Using \( s = 2.58 \) and \( \bar{x} = 20 \):  
+  \[
+  \text{CV} = \frac{2.58}{20} \times 100 \approx 12.9\%
+  \]
+
+---
+
+## **7. Frequency Distribution (Grouped Data)**
+
+### Find Class Width:
+- Formula:  
+  \[
+  \text{Class Width} = \frac{\text{Range}}{\text{Number of Classes}}
+  \]
+
+- Example: Range = 80, Number of Classes = 8.  
+  \[
+  \text{Class Width} = \frac{80}{8} = 10
+  \]
+
+---
+
+## **8. Geometric Mean**
+
+- Formula:  
+  \[
+  \text{Geometric Mean} = \sqrt[n]{x_1 \cdot x_2 \cdot \dots \cdot x_n}
+  \]
+
+- Example: For rates \( 1.05, 1.10, 1.25 \):  
+  \[
+  \text{GM} = \sqrt[3]{1.05 \cdot 1.10 \cdot 1.25} \approx 1.13
+  \]
+
+---
+
+## **9. Harmonic Mean**
+
+- Formula:  
+  \[
+  \text{Harmonic Mean} = \frac{n}{\sum \frac{1}{x_i}}
+  \]
+
+- Example: For speeds \( 2, 3, 4 \):  
+  \[
+  \text{HM} = \frac{3}{\frac{1}{2} + \frac{1}{3} + \frac{1}{4}} = \frac{3}{0.5 + 0.333 + 0.25} \approx 2.77
+  \]
+
+---
+
+## **10. Standard Deviation Example**
+- Data: \( 5, 9, 3, 2, 7, 9, 8, 2, 2, 3 \).  
+  - \( \bar{x} = \frac{\sum x}{n} = \frac{50}{10} = 5 \).  
+  Deviations:  
+  \[
+  x - \bar{x} = 0, 4, -2, -3, 2, 4, 3, -3, -3, -2
+  \]  
+  Squared Deviations:  
+  \[
+  0^2, 4^2, (-2)^2, (-3)^2, 2^2, 4^2, 3^2, (-3)^2, (-3)^2, (-2)^2
+  \]  
+  \[
+  = 0, 16, 4, 9, 4, 16, 9, 9, 9, 4
+  \]  
+  \[
+  \text{Variance} = \frac{80}{10} = 8, \quad \text{Standard Deviation} = \sqrt{8} \approx 2.83
+  \]
